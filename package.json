@@ -1,9 +1,9 @@
 {
-  "name": "ts-extension-starter",
+  "name": "codelab-color-picker",
   "version": "1.0.0",
-  "description": "A starter repo for building Chrome browser extensions in v3 manifest using Typescript and Rollup.",
+  "description": "A color picker extension for Browsers",
   "license": "MIT",
-  "author": "Ross Moody<@_rossmoody>",
+  "author": "Iuri Torres<@iuritorres>",
   "keywords": [
     "chrome-extension",
     "web-extension",
