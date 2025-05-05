@@ -1,7 +1,12 @@
 import React from 'react'
-import { render } from 'react-dom'
+import { createRoot } from 'react-dom/client'
+import '../../globals.css'
 import App from './App'
 
-const root = document.querySelector('#root')
+const rootElement = document.getElementById('root')
 
-render(<App />, root)
+if (!rootElement) {
+  throw new Error('Root element not found')
+}
+
+createRoot(rootElement).render(<App />)

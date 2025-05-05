@@ -1,3 +1,3 @@
 export function init(): void {
-  console.log('content script')
+  console.log("content script")
 }

@@ -2,7 +2,7 @@
 // Popup action takes precedence over this listener.
 // To make this function work, set "action" property to {} in manifest
 
-import { init } from './scripts/content-script'
+import { init } from "./scripts/content-script"
 
 chrome.action.onClicked.addListener((tab) => {
   if (tab && tab.id) {
